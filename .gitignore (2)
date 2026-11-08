@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.iml
+
+# Android build output & local config
+build/
+.gradle/
+local.properties
+captures/
+*.log
+
+# Signing secrets - NEVER commit these
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# Temp / extracted APK contents
+extracted/
+*.tmp
+
+# Note: the release APK is distributed via GitHub Releases, not tracked in git.
+# Remove the next line if you DO want the APK committed to the repo.
+*.apk
